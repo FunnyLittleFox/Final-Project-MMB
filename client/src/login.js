@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function login() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="login">
+      <header className="login-header">
       <h1 react form></h1>
-    <div id="app"></div>
+    <div id="login"></div>
     <script src="https:unpkg.com/react@16/umd/react.production.min.js"></script>
     <script src="https:unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
     <script src="https:unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
@@ -34,5 +34,4 @@ function App() {
   );
 }
 
-export default App;
-
+export default login;
