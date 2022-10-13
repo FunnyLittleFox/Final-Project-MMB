@@ -5,7 +5,13 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="#">
-             Navbar
+            <ul>
+              <li><a class="logo" href="#logo">Logo</a></li>
+              <li><a href="#resorces">Resorces</a></li>
+              <input class= "search" type="text" placeholder="Search.."></input>
+              <li><a class="login" href="#Login">Login</a></li>
+            </ul>
+             
             </a> 
             <button
               className="navbar-toggler" 

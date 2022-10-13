@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App';
 
 function App() {
   return (
@@ -7,12 +7,7 @@ function App() {
       <header className="App-header">
       <h1 react form></h1>
     <div id="app"></div>
-    <script src="https:unpkg.com/react@16/umd/react.production.min.js"></script>
-    <script src="https:unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-    <script src="https:unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
- <script type="text/babel">
-
- </script>
+    
 
    <div className="form">
      <form>
