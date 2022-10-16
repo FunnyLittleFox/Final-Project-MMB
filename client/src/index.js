@@ -2,19 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Banner from './Components/banner'
 import Login from './Components/login';
-import Nav from './Components/nav';
+import Banner from './Components/banner';
+import Body from './Components/body';
+import Homepage from './Components/homepage';
+import Searchbar from './Components/searchbar';
+import Navbar from './Components/navbar';
+import Footer from './Components/footer';
 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nav/>
-    <Banner/>
-    <App/>
     <Login/>
+    <Navbar/>
+    <App/>
+    
+    
     
   </React.StrictMode>
 );
