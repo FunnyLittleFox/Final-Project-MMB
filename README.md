@@ -2,3 +2,9 @@
 
 “Just Bootstrap It”  
 Ecommerce site for small business owners with little beginning capital 
+
+
+Base notes right now
+
+Deploy on heroku
+Node.js
