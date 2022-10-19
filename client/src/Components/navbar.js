@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Logo from 'body.jpg'
+import Logo from './images/body.JPG';
 import {BsCart3} from 'react-icons/bs'
 
 export default function Navigation() {
@@ -43,3 +43,4 @@ export default function Navigation() {
         </div>
     )
 }
+

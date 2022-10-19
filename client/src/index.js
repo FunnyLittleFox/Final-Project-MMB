@@ -2,14 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './Components/App';
-import Login from './login';
+import Login from './Components/login';
+import Banner from './Components/banner';
+import Body from './Components/body';
+import Navigation from './Components/navbar';
 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Navigation/>
     <Login/>
+    
+    
+    
   </React.StrictMode>
 );
 
