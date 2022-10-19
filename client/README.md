@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+Just Bootstrap It!
+For our final milestone we wanted to create a simple ecommerce site for small business owners with limited beginning capital to access resources to make their business journey a little easier. It has a list of blogs they can access for various tips and tricks, an option to book a 1-on-1 with a “professional” and a database of 5 suppliers they can access to find a clothing supplier that best suits their needs. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For the sake of the milestone this ecommerce site is geared towards small business owners with a clothing brand; however, that could change in the future who knows! 
 
-## Available Scripts
 
-In the project directory, you can run:
+The Inspiration
+During the pandemic of 2020, I witnessed many people on social media and real life start a business in hopes to sustain an income after major layoffs and in hopes to change their previous reality. I wanted to begin this project to help guide business owners and aspiring business owners to turn that dream into their new reality. 
 
-### `npm start`
+How to Use
+It is a pretty easy website to navigate. You are presented with a portal that you must log into and once logged in you enter the landing page. On the landing page you have 3 options:
+Click on the first card which is a list of blogs you can learn business tips and tricks from.
+Click on the second card and you have the chance to book a 1-on-1 with a professional to learn more about how to start your small business.
+Click on the third card and access a database of clothing suppliers so that you can shorten research time and pick a supplier that best suits your needs.
+In addition, you can favorite a supplier to keep in a favorites section to refer to later. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Technologies:
 
-### `npm test`
+FIGMA
+What we used for UI/UX. Figma helped us visualize how we wanted the site to look.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://www.figma.com/file/zpG3iwbyKAsumQ3ueon24j/Untitled?node-id=0%3A1
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+TRELLO
+This is how we assigned/managed tasks.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://trello.com/b/DUP2IIr5/final-mmb
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+HOSTING
+We used Heroku for hosting
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+SQL - API
+Mock data of clothing suppliers that small businesses could use to shorten research time.
 
-## Learn More
+FRONT-END
+React
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+BACK-END
+Python
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1-ON-1
+Marta created a calendly to make this more realistic.
+https://calendly.com/martabiedes/30min
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+BLOG
+Google search of the top blogs of 2022 so far by blogging.org
+https://blogging.org/top-business-blogs/ 
