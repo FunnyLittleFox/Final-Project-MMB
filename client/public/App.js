@@ -36,7 +36,7 @@ function App() {
 
 export default App;
 
-//NAVBAR 
+//NAVBAR - importing navbar - Marta
 import React from "react";
 
 const Navbar = () => {

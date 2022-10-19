@@ -39,21 +39,14 @@
 
 .nav {
   display: inline-block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 
-.items {
-  display: inline;
- margin-left: 50px;
+.nav{
+  
 }
 
-.nav a.active {
-  
-  color: #fff;
-  background: #7600dc;
-}
-.nav a.inactive {
-  font-style: italic;
-}
+
 
 

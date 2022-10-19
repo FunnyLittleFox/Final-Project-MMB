@@ -1,3 +1,4 @@
+//marta - Next steps: add image next to text. underneath three info cards with links attatched.
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 

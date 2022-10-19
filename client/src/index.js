@@ -4,7 +4,7 @@ import './index.css';
 import './Components/App.css';
 import App from './Components/App';
 import Login from './Components/login';
-import Banner from './Components/banner';
+
 import Body from './Components/body';
 import Navigation from './Components/navbar';
 import Footer from './Components/footer';

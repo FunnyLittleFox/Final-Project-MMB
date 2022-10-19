@@ -7,25 +7,27 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from './images/body.JPG';
 import {BsCart3} from 'react-icons/bs';
 import './App.css';
-
+ 
 export default function Navigation() {
     return (
         <div className = "nav">
             <Navbar bg="light" expand="lg">
                 <Container fluid>
                     <Navbar.Brand href="#home">
-                        <img alt="logo" src={Logo} style={{width: '20%'}}/>
+                        <img alt="logo" src={Logo} style={{width: '15%'}}/>
                     </Navbar.Brand>
-                    
+                   
                     <Navbar.Collapse id="navbarScroll">
-                    <Nav className="items">
-                        <Nav.Link href="#Home">Home</Nav.Link>
-                        <Nav.Link href="#Resources">1 ON 1</Nav.Link>
+                       
+                            <Nav className="flex-grow-1 justify-content-evenly">
+                            <Nav.Link href="#Home">Home</Nav.Link>
+                            <Nav.Link href="#Resources">1 ON 1</Nav.Link>
                         <NavDropdown title="Resources" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#Blog">Blog</NavDropdown.Item>
                             <NavDropdown.Item href="#Tips">Suppliers</NavDropdown.Item>
                         </NavDropdown>
                         </Nav>
+                       
                         <Form className="d-flex">
                             <Form.Control
                                 type="search"
@@ -38,8 +40,7 @@ export default function Navigation() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            
+           
         </div>
     )
 }
-

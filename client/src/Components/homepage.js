@@ -7,7 +7,7 @@ function Homepage() {
         <div>
             {/* Navbar */}
             <NavBar><div>Homepage</div></NavBar>
-             {/*list of products alsp show in hompage */}
+             {/*list of products also show in hompage -marta */}
 
         </div>
         
