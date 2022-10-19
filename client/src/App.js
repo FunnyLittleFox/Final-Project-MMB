@@ -1,14 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import React, { Fragment } from "react";
+
+//components
+
+import Supplier from './Components/AllSuppliers';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1 react form></h1>
-      <div id="app"></div>
-    </header>
-</div>
-  )
+    <Fragment>
+    <div className="container">
+      <Supplier />
+    
+    </div>
+  </Fragment>
+);
 }
 export default App;

@@ -17,6 +17,8 @@ root.render(
   <React.StrictMode>
     <Login/>
     <Navbar/>
+    <Banner />
+    
     <App/>
     
     
