@@ -8,7 +8,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 export default function Footer() {
     return (
         <div className="Footer">
-            
+            <Navbar style={{justifyContent: 'center', backgroundColor: '#black', height: '30px'}} sticky="top">
+                <Navbar.Brand href="#Subscribe">Subscribe to Our Email List</Navbar.Brand>
+            </Navbar>
         </div>
     )
 }

@@ -5,24 +5,25 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from './images/body.JPG';
-import {BsCart3} from 'react-icons/bs'
+import {BsCart3} from 'react-icons/bs';
+import './App.css';
 
 export default function Navigation() {
     return (
-        <div>
+        <div className = "nav">
             <Navbar bg="light" expand="lg">
                 <Container fluid>
                     <Navbar.Brand href="#home">
-                        <img alt="logo" src={Logo} style={{width: '50%'}}/>
+                        <img alt="logo" src={Logo} style={{width: '20%'}}/>
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
+                    
                     <Navbar.Collapse id="navbarScroll">
-                        <Nav className="flex-grow-1 justify-content-evenly">
+                    <Nav className="items">
                         <Nav.Link href="#Home">Home</Nav.Link>
-                        <Nav.Link href="#Resources">Resources</Nav.Link>
+                        <Nav.Link href="#Resources">1 ON 1</Nav.Link>
                         <NavDropdown title="Resources" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#Blog">Blog</NavDropdown.Item>
-                            <NavDropdown.Item href="#Tips">Tips</NavDropdown.Item>
+                            <NavDropdown.Item href="#Tips">Suppliers</NavDropdown.Item>
                         </NavDropdown>
                         </Nav>
                         <Form className="d-flex">
@@ -37,9 +38,7 @@ export default function Navigation() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <Navbar style={{justifyContent: 'center', backgroundColor: '#A0522D', height: '30px'}} sticky="top">
-                <Navbar.Brand href="#Subscribe">Subscribe to Our Email List</Navbar.Brand>
-            </Navbar>
+            
         </div>
     )
 }

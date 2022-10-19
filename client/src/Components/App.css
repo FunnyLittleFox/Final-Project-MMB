@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  display: inline-block;
+  
+}
+
+.items {
+  display: inline;
+ margin-left: 50px;
+}
+
+.nav a.active {
+  
+  color: #fff;
+  background: #7600dc;
+}
+.nav a.inactive {
+  font-style: italic;
+}
+
+
