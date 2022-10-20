@@ -12,4 +12,4 @@ function SearchBar(props){
     )
 }
 
-export default SearchBar
+export default SearchBar;

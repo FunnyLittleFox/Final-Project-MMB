@@ -24,6 +24,7 @@ root.render(
     <Body/>
     <BlogCard/>
     <OneCard/>
+    <SuppliersCard/>
     <Footer/>
     
     
