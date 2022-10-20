@@ -12,7 +12,7 @@ function OneCard() {
       <div className='One'>
         <div className='border'>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="./assets/blog.PNG" />
+            <Card.Img variant="top" src="./assets/calendly.PNG" />
             <Card.Body>
               <Card.Title>1-ON-1</Card.Title>
               <Card.Text>
