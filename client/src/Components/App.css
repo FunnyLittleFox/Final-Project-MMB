@@ -27,7 +27,9 @@
 .App-link {
   color: #61dafb;
 }
-
+.eh{
+  background-color: lightgray;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,18 +38,40 @@
     transform: rotate(360deg);
   }
 }
-
+.login{
+  justify-content: right;
+  text-align: center;
+  border-style: solid;
+  background-color: orange;
+}
+.form{
+  display: inline-block;
+  background-color: #0D6EFD;
+  border-style: solid;
+  margin-bottom: 20px;
+  color:white;
+  border-color: black;
+}
 .nav {
-  display: inline;
+  display: block;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+
+}
+.home{
+  margin:25px;
+}
+.resources{
+  margin:25px;
 }
 .container{
   background-color: #F5F5F5;
   text-align: center;
 }
-
+.body-section-image{
+  width: 25%;
+  
+}
 .One{
   display: inline-flex;
   text-align: center;
@@ -55,7 +79,8 @@
   background-color: orange;
   height: 200px;
   margin: 50px;
-
+  padding:5px;
+  padding-bottom: 50px;
 }
 
 .Blog{
@@ -65,20 +90,45 @@
   border-radius: 25px;
   background-color: orange;
   height: 200px;
+  padding:5px;
   margin: 50px;
+  padding-bottom: 50px;
+}
+
+.supplier{
+  display: inline-flex;
+  text-align: center;
+  border-radius: 25px;
+  background-color: orange;
+  height: 200px;
+  margin: 50px;
+  padding:5px;
+  padding-bottom: 50px;
 }
 .button{
   background-color: #0D6EFD;
-  padding-left:100px;
-  padding-right:100px;
+  padding-left:80px;
+  padding-right:80px;
   padding-top: 10px;
   padding-bottom: 20px;
   color:white;
   border-radius: 25px;
 }
-
- 
-
-
-
-
+.image{
+  border-radius: 5px;
+  width:50%;
+  height: 50%;
+}
+.supImage{
+  border-radius: 5px;
+  width:50%;
+  height: 50%;
+}
+.Footer{
+  text-align: center;
+  padding: 5px;
+  background-color: orange;
+  height: '30px';
+  position: sticky;
+  
+}
