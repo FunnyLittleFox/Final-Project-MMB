@@ -4,17 +4,18 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Logo from './images/body.JPG';
+import Logo from './assets/body.PNG';
 import {BsCart3} from 'react-icons/bs';
 import './App.css';
  
 export default function Navigation() {
     return (
+        
         <div className = "nav">
             <Navbar bg="light" expand="lg">
                 <Container fluid>
                     <Navbar.Brand href="#home">
-                        <img alt="logo" src={Logo} style={{width: '15%'}}/>
+                        <img alt="logo" src={Logo} style={{width: '15%', justifyContent:'right'}}/>
                     </Navbar.Brand>
                    
                     <Navbar.Collapse id="navbarScroll">

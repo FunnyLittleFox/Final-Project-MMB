@@ -6,6 +6,8 @@ import App from './Components/App';
 import Login from './Components/login';
 
 import Body from './Components/body';
+import BlogCard from './Components/BlogCard';
+import OneCard from './Components/OneCard';
 import Navigation from './Components/navbar';
 import Footer from './Components/footer';
 import reportWebVitals from './reportWebVitals';
@@ -13,9 +15,15 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navigation/>
-    <Login/>
+    <div className='eh'>
+      <Navigation/> 
+      <Login/>
+    </div>
     
+    
+    <Body/>
+    <BlogCard/>
+    <OneCard/>
     <Footer/>
     
     
