@@ -15,7 +15,7 @@ export default function Navigation() {
             <Navbar bg="light" expand="lg">
                 <Container fluid>
                     <Navbar.Brand href="#home">
-                        <img alt="logo" src={Logo} style={{width: '15%', justifyContent:'right'}}/>
+                        
                     </Navbar.Brand>
                    
                     <Navbar.Collapse id="navbarScroll">
