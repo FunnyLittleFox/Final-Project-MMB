@@ -38,14 +38,45 @@
 }
 
 .nav {
-  display: inline-block;
+  display: inline;
+  text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
-
-.nav{
-  
+.container{
+  background-color: #F5F5F5;
+  text-align: center;
 }
+
+.One{
+  display: inline-flex;
+  text-align: center;
+  border-radius: 25px;
+  background-color: orange;
+  height: 200px;
+  margin: 50px;
+
+}
+
+.Blog{
+  display: inline-flex;
+  text-align: center;
+  border-radius: 25px;
+  background-color: orange;
+  height: 200px;
+  margin: 50px;
+}
+.button{
+  background-color: #0D6EFD;
+  padding-left:100px;
+  padding-right:100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color:white;
+  border-radius: 25px;
+}
+
+ 
 
 
 

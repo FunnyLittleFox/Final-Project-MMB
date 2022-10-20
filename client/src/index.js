@@ -9,6 +9,8 @@ import OneCard from './Components/OneCard';
 import SuppliersCard from './Components/SuppliersCard';
 import BlogCard from './Components/BlogCard';
 import Body from './Components/body';
+import BlogCard from './Components/BlogCard';
+import OneCard from './Components/OneCard';
 import Navigation from './Components/navbar';
 import Footer from './Components/footer';
 import reportWebVitals from './reportWebVitals';
@@ -18,9 +20,7 @@ root.render(
   <React.StrictMode>
     <Navigation/>
     <Login/>
-    <BlogCard/>
-    <OneCard/>
-    <SuppliersCard/>
+    
     <Footer/>
     
     
