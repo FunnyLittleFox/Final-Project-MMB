@@ -11,7 +11,7 @@ create table favorites (
 class User extends Favorites {
   static associate({ Favorites }) {
     /* user and favorites */ 
-    User.hasMany(Favorites, {
+    User.belongsTo(Favorites, {
       foreignKey: "user_id",
       as: "favorites"
     })
