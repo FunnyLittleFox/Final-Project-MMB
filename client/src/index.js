@@ -11,7 +11,7 @@ import OneCard from './Components/OneCard';
 import Navigation from './Components/navbar';
 import Footer from './Components/footer';
 import reportWebVitals from './reportWebVitals';
-
+import SuppliersCard from './Components/SuppliersCard';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -24,6 +24,7 @@ root.render(
     <Body/>
     <BlogCard/>
     <OneCard/>
+    <SuppliersCard/>
     <Footer/>
     
     
