@@ -5,6 +5,9 @@ import './Components/App.css';
 import App from './Components/App';
 import Login from './Components/login';
 
+import OneCard from './Components/OneCard';
+import SuppliersCard from './Components/SuppliersCard';
+import BlogCard from './Components/BlogCard';
 import Body from './Components/body';
 import Navigation from './Components/navbar';
 import Footer from './Components/footer';
@@ -15,7 +18,9 @@ root.render(
   <React.StrictMode>
     <Navigation/>
     <Login/>
-    
+    <BlogCard/>
+    <OneCard/>
+    <SuppliersCard/>
     <Footer/>
     
     

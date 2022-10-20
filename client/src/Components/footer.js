@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-export default function Footer() {
+function Footer() {
     return (
         <div className="Footer">
             <Navbar style={{justifyContent: 'center', backgroundColor: '#black', height: '30px'}} sticky="top">
@@ -15,3 +15,5 @@ export default function Footer() {
         </div>
     )
 }
+
+export default Footer;
