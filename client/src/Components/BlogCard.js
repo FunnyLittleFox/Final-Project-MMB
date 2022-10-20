@@ -17,7 +17,7 @@ function BlogCard() {
               <Card.Text>
                 Bloggers.org's top Business Blogs of 2022! Get all the tips and tricks you need from the best blogs!
               </Card.Text>
-              <Button className='button' variant="primary" href="https://blogging.org/top-business-blogs/ ">Access Now</Button>
+              <Button className='button' variant="primary" href="https://blogging.org/top-business-blogs/">Access Now</Button>
             </Card.Body>
           </Card>
         </div>
