@@ -1,4 +1,4 @@
-//need to style this and have it end up on teh very bottom. -marta
+//need to style this and have it end up on the very bottom. -marta
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
