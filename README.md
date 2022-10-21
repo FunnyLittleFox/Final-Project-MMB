@@ -8,3 +8,5 @@ Base notes right now
 
 Deploy on heroku
 Node.js
+
+RESTART, bring github_merge files onto here
