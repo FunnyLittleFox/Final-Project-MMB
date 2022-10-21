@@ -33,7 +33,7 @@ https://trello.com/b/DUP2IIr5/final-mmb
 
 HOSTING
 We used Heroku for hosting
-
+https://final-project-mmbj.herokuapp.com/
 
 SQL - API
 Mock data of clothing suppliers that small businesses could use to shorten research time.
