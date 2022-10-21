@@ -61,6 +61,9 @@ app.get("/api", (req, res) => {
 
 
 // LISTEN
-app.listen(3001, () => {
-  console.log("New Greetings! Server listening From port: ", 3001);
-});
+//app.listen(3001, () => {
+//  console.log("New Greetings! Server listening From port: ", 3001);
+//});
+
+//Heroku port listen
+app.set('port', process.env.PORT || 3001);
