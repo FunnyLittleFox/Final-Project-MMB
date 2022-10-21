@@ -66,4 +66,4 @@ app.get("/api", (req, res) => {
 //});
 
 //Heroku port listen
-app.set('port', process.env.PORT || 3001);
+app.listen (process.env.PORT)
