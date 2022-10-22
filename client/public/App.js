@@ -36,15 +36,3 @@ function App() {
 
 export default App;
 
-//NAVBAR - importing navbar - Marta
-import React from "react";
-
-const Navbar = () => {
-    return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <
-    )
-}
-export default Navbar;
-
-
