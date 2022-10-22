@@ -15,17 +15,17 @@ export default function Navigation() {
             <Navbar bg="light" expand="lg">
                 <Container fluid>
                     <Navbar.Brand href="#home">
-                        <img alt="logo" src={Logo} style={{width: '15%', justifyContent:'right'}}/>
+                        
                     </Navbar.Brand>
                    
                     <Navbar.Collapse id="navbarScroll">
                        
                             <Nav className="flex-grow-1 justify-content-evenly">
-                            <Nav.Link href="#Home">Home</Nav.Link>
-                            <Nav.Link href="#Resources">1 ON 1</Nav.Link>
+                            <Nav.Link className = "home" href="#Home">Home</Nav.Link>
+                            <Nav.Link className = "resources" href="https://calendly.com/martabiedes/30min">1 ON 1</Nav.Link>
                         <NavDropdown title="Resources" id="navbarScrollingDropdown">
-                            <NavDropdown.Item href="#Blog">Blog</NavDropdown.Item>
-                            <NavDropdown.Item href="#Tips">Suppliers</NavDropdown.Item>
+                            <NavDropdown.Item className = "home" href="https://blogging.org/top-business-blogs/">Blog</NavDropdown.Item>
+                            <NavDropdown.Item className = "resources" href="#Tips">Suppliers</NavDropdown.Item>
                         </NavDropdown>
                         </Nav>
                        

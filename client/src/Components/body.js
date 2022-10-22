@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 import styled from 'styled-components';
 import './App.css';
-
+import img from './assets/body.PNG';
 const Body = () => {
     // console.log(myData)
     
@@ -18,9 +18,9 @@ const Body = () => {
                 <p>As a small business owner you already do so much on your own, let us help you out! 
                 Check out our resources, blog posts, and more!</p>
             </div>
-            <div className="body-section-image">
+            <div >
          <figure>
-            <img src="./images/body.JPG" alt="body-section-photo" className="img-style"/>
+            <img className="body-section-image" src={img} alt="body-section-photo"/>
          </figure>
             </div>
         </div>

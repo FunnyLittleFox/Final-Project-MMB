@@ -11,19 +11,21 @@ import reportWebVitals from './reportWebVitals';
 import SuppliersCard from './Components/SuppliersCard';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- 
-  //calling all the homies - marta
- <React.StrictMode>
-    <Navigation/>
-    <Login/>
+  <React.StrictMode>
+    <div className='eh'>
+      <Navigation/> 
+      <Login/>
+    </div>
+    
     
     <Body/>
     <BlogCard/>
     <OneCard/>
     <SuppliersCard/>
+    
+    </div>
+    
     <Footer/>
-    
-    
   </React.StrictMode>
 );
 

@@ -6,11 +6,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function Footer() {
+export default function Footer() {
     return (
         <div className="Footer">
-            <Navbar style={{textAlign: 'center', backgroundColor: '#black', height: '30px'}} sticky="top">
-                <Navbar.Brand href="#Subscribe">Subscribe to Our Email List</Navbar.Brand>
+            <Navbar>
+                <Navbar.Brand href="#Subscribe"style= {{position:"sticky"}}><b>Subscribe to Our Email List</b></Navbar.Brand>
             </Navbar>
         </div>
     )
