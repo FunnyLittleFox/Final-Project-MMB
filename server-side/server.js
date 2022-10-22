@@ -21,10 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static(path.join(__dirname, '/client/build')))
 // ROUTES
-app.get("/", (req, res) => {
-  console.log(req.body)
-  
-});
+
 
 // get all suppliers
 
@@ -59,7 +56,10 @@ app.get("/api", (req, res) => {
   res.json({ message: "Hello from server!" });
 });
 
-
+  // All remaining requests return the React app, so it can handle routing.
+  app.get('*', function(request, response) {
+    response.sendFile(path.resolve(__dirname, '../react-ui/build', 'index.html'));
+  });
 // LISTEN
 //app.listen(3001, () => {
 //  console.log("New Greetings! Server listening From port: ", 3001);
