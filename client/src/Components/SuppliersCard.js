@@ -18,7 +18,7 @@ function SuppliersCard() {
                 <Card.Text>
                     All the time you would spend researching suppliers cut down in one place, just for you! find the best suppliers now!
                 </Card.Text>
-                <Button className='button' variant="primary" href="https://calendly.com/martabiedes/30min">Access Suppliers</Button>
+                <Button className='button' variant="primary" href="">Access Suppliers</Button>
                 </Card.Body>
                 </div>
             </Card>

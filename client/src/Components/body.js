@@ -13,7 +13,7 @@ const Body = () => {
      <div className='container'>
         <div className="grid grid-two-column">
             <div className="body-section-data">
-            <p className="intro-data">Welcome to </p>
+            <p className="intro-data">Welcome!</p>
                 <h1></h1>
                 <p>As a small business owner you already do so much on your own, let us help you out! 
                 Check out our resources, blog posts, and more!</p>
