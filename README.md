@@ -52,3 +52,4 @@ https://calendly.com/martabiedes/30min
 BLOG
 Google search of the top blogs of 2022 so far by blogging.org
 https://blogging.org/top-business-blogs/ 
+
