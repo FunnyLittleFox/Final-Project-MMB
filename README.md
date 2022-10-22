@@ -14,8 +14,8 @@ OUR ROLES:
 
 Marta: Front-End
 Mason: Back-End
-Bryanna: Favorites Feature
-Joram: Database
+Bryanna: Favorites Feature . was supposed to
+Joram: Database . was supposed to
 
 
 The Technologies:
