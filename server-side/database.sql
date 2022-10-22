@@ -5,3 +5,5 @@ CREATE TABLE supplier(
     supplier_id SERIAL PRIMARY KEY,
     description VARCHAR(225)
 );
+
+/* XXAMP - mysql - apache . testing */

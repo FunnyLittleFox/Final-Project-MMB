@@ -6,19 +6,15 @@ const pool = require("./db");
 
 require("dotenv").config();
 
-
 // CONFIGURATION
 const PORT = process.env.PORT || 3001;
 const app = express();
 app.use(cors());
 
-
-
 //Middle
 app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
-
 
 // ROUTES
 app.get("/", (req, res) => {
@@ -27,7 +23,6 @@ app.get("/", (req, res) => {
 });
 
 // get all suppliers
-
 app.get("/suppliers", async(req,res) => {
   try {
     const allSuppliers = await pool.query("SELECT * FROM public.supplier")
@@ -37,9 +32,7 @@ app.get("/suppliers", async(req,res) => {
   }
 });
 
-
 // get a specific supplier
-
 app.get("/suppliers/:id", async (req, res) => {
   try {
     const {id} = req.params;
@@ -51,14 +44,10 @@ app.get("/suppliers/:id", async (req, res) => {
   }
 })
 
-
-
-
 // Handle GET requests to /api route
 app.get("/api", (req, res) => {
   res.json({ message: "Hello from server!" });
 });
-
 
 // LISTEN
 //app.listen(3001, () => {

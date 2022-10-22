@@ -42,11 +42,11 @@
   justify-content: right;
   text-align: center;
   border-style: solid;
-  background-color: orange;
+  background-color: rgb(187, 145, 199);
 }
 .form{
   display: inline-block;
-  background-color: #0D6EFD;
+  background-color: #6c02c9;
   border-style: solid;
   margin-bottom: 20px;
   color:white;
@@ -76,7 +76,7 @@
   display: inline-flex;
   text-align: center;
   border-radius: 25px;
-  background-color: orange;
+  background-color: rgb(187, 145, 199);
   height: 200px;
   margin: 50px;
   padding:5px;
@@ -88,7 +88,7 @@
   text-align: center;
   
   border-radius: 25px;
-  background-color: orange;
+  background-color: rgb(187, 145, 199)e;
   height: 200px;
   padding:5px;
   margin: 50px;
@@ -99,14 +99,14 @@
   display: inline-flex;
   text-align: center;
   border-radius: 25px;
-  background-color: orange;
+  background-color: rgb(187, 145, 199);
   height: 200px;
   margin: 50px;
   padding:5px;
   padding-bottom: 50px;
 }
 .button{
-  background-color: #0D6EFD;
+  background-color: #6c02c9;
   padding-left:80px;
   padding-right:80px;
   padding-top: 10px;
@@ -127,7 +127,7 @@
 .Footer{
   text-align: center;
   padding: 5px;
-  background-color: orange;
+  background-color: #6c02c9;
   height: '30px';
   position: sticky;
   
