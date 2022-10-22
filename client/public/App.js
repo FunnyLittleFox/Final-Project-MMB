@@ -39,11 +39,11 @@ export default App;
 //NAVBAR - importing navbar - Marta
 import React from "react";
 
-const Navbar = () => {
+export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <
+            </nav>
     )
 }
-export default Navbar
+//export default Navbar
 

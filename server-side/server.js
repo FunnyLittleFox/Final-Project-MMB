@@ -8,7 +8,7 @@ require("dotenv").config();
 
 
 // CONFIGURATION
-//const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 const app = express();
 app.use(cors());
 
@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
-
+app.use(express.static(path.join(__dirname, '/client/build')))
 // ROUTES
 app.get("/", (req, res) => {
   console.log(req.body)
@@ -66,4 +66,4 @@ app.get("/api", (req, res) => {
 //});
 
 //Heroku port listen
-server.listen(process.env.PORT || port)
+app.listen(process.env.PORT || 3001)
