@@ -6,4 +6,4 @@ CREATE TABLE supplier(
     description VARCHAR(225)
 );
 
-/* XXAMP - mysql - apache . testing */
+/* XXAMP - mysql - apache . testing.  */

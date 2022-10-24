@@ -1,4 +1,4 @@
-//login should work (aesthetic wise) need to make it the initial *landing page* - marta
+//login should work *change in intial presentation* - marta
 import './App.css';
 
 function login() {

@@ -13,8 +13,11 @@ In addition, you can favorite a supplier to keep in a favorites section to refer
 OUR ROLES:
 
 Marta: Front-End
+
 Mason: Back-End
+
 Bryanna: Favorites Feature . was supposed to
+
 Joram: Database . was supposed to
 
 
@@ -34,12 +37,6 @@ https://final-project-mmbj.herokuapp.com/
 
 SQL - API
 Mock data of clothing suppliers
-
-FRONT-END
-React
-
-BACK-END
-Python
 
 1-ON-1
 https://calendly.com/martabiedes/30min
